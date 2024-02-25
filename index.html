@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHero API</title>
+    <!-- Agrega tus enlaces a las librerías o frameworks de CSS que desees utilizar -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <h1> <img src="assets/img/sh2.jpg" alt="" width="80px"> SuperHero</h1>
+    </header>
+    <main>
+        <section id="busqueda">
+            <img src="assets/img/sh1.jpg" alt="SuperHero Image">
+            <h2>ENCUENTRA TU SUPERHERO</h2>
+            <form>
+                <label for="inputHeroe">ID del Superhéroe:</label>
+                <input type="text" id="inputHeroe" placeholder="Ingrese ID">
+                <button type="button" id="btnBuscar">Buscar</button>
+            </form>
+        </section>
+        <section id="resultado">
+            <!-- Contenedor para la imagen y estadísticas del superhéroe -->
+            <img src="#" alt="Superhéroe" id="imagenSuperheroe">
+            <h2 id="nombreSuperheroe"></h2>
+            <p id="inteligencia"></p>
+            <p id="fuerza"></p>
+            <p id="velocidad"></p>
+            <!-- Contenedor para el gráfico de estadísticas -->
+            
+        </section>
+        <div id="grafico" style="height: 400px; width: 80%; "></div>
+        
+
+        
+    </main>
+
+    <!-- Agrega tus enlaces a las librerías o frameworks de JavaScript que desees utilizar -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
